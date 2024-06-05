@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="bg">
+    <nav id="desktop-nav">
+        <div class="logo"><strong>SAKSHI_V_BHOITE</strong></div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">SAKSHI_V_BHOITE</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="profile">
+        <div class="section__text">
+          <p class="section__text__p1">Hello! I am</p>
+          <h1 class="title">Sakshi Virendra Bhoite</h1>
+          <p class="section__text__p2">A Full Stack Developer</p>
+
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/Sakshi Bhoite Resume.pdf')"
+            >
+              Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="scrollToContact()">
+              Contact Info
+            </button>
+          </div>
+          <br>
+          <div class="connect">
+            <h1 class="title1">Get In Touch...</h1>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/new in.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/sakshi-bhoite/'"
+            />
+            <img
+              src="./assets/insta new.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://instagram.com/sakshi_2988?igshid=OGQ5ZDc2ODk2ZA=='"
+            />
+          </div>
+        </div>
+      </section>
+      </div>
+      <section id="about">
+        <p class="section__text__p1">Get To Know More...</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h1>Experience</h1>
+                <br>
+                <h3>A Full Stack Development <br>Fresher</h3>
+            </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h1>Education</h1>
+                <br>
+                <h3>Bsc-Information Technology <br> CGPI: 8.95 / 10</h3>
+                 
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Hello! I'm Sakshi Bhoite, A Passionate Web Developer with a strong background in front-end and back-end development. Skilled in Html | CSS | JavaScript | SQL | C Programming | C# | ASP.NET
+I’m confident in my ability to make valuable contribution to secure a responsible career opportunity to fully utilize my training and skills, while making a significant contribution to the success of the company.
+I bring a fresh perspective, adaptability and a strong willingness to learn and grow within the company. 
+Currently seeking job opportunities to collaborate with forward-thinking companies and contribute to innovative web projects.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+      <section id="experience">
+        <p class="section__text__p1">Explore My...</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Frontend Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Experienced</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Bootstrap</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Angular JS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>React JS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-container">
+              <h2 class="experience-sub-title">Backend Development and Database</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>SQL</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>C prog.</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>C#</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>ASP.NET</h3>
+                    <p>Beginner</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>ASP.NET Core</h3>
+                    <p>Beginner</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>ASP.NET MVC</h3>
+                    <p>Beginner</p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent...</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <h2 class="experience-sub-title project-title">Library Management System</h2>
+              <h3>(Language: C#<br>Database: SQL<br>Application: Visual Studio)</h3>
+            </div>
+            <div class="details-container color-container">
+              <h2 class="experience-sub-title project-title">Memory Matching Game</h2>
+              <h3>(Language: C#<br>Application: Visual Studio)</h3>
+            </div>
+            <div class="details-container color-container">
+              <h2 class="experience-sub-title project-title">Coffee Shop Management System</h2>
+              <h3>(Language: C#<br>Database: SQL<br>Application: Visual Studio)</h3>
+            </div>
+
+            <div class="details-container color-container">
+              <h2 class="experience-sub-title project-title"> Adventures Landing <br>Page</h2>
+              <h3>(HTML<br>CSS<br>JavaScript)</h3>
+            </div>
+
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch...</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/mail.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:sakshi273bhoite@gmail.com">sakshi273bhoite@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/new in.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/sakshi-bhoite/'">LinkedIn</a></p>
+          </div>
+
+          <div class="contact-info-container">
+            <img
+              src="./assets/f_wa.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://web.whatsapp.com/'">WhatsApp</a></p>
+          </div>
+
+
+        </div>
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2024 Sakshi Virendra Bhoite. All Rights Reserved.</p>
+      </footer>
+      <script src="script.js"></script>
+</body>
+</html>
